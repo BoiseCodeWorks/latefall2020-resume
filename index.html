@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        .category-title {
+            color: blueviolet;
+        }
+
+        /* NOTE last loaded wins */
+        .category-title {
+            color: chartreuse;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Darryl Kilzer Jr.</h1>
+        <h3>Software Developer</h3>
+    </header>
+    <main>
+        <section id="about" style="color: blanchedalmond;">
+            <!-- NOTE NEVER inline style -->
+            <div class="category-title text-center text-red">
+                <h3>About</h3>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nesciunt dicta officiis porro
+                excepturi, libero ratione voluptatum doloremque officia tempora voluptatibus quis rem eaque, magnam
+                distinctio odio. Consequuntur, a illo?Suscipit libero cumque repellendus, corporis sint, commodi
+                possimus optio dolor dolore ex, a laudantium natus eius iusto architecto sunt quidem. Laudantium ipsum
+                modi, officia quo quod cum consectetur temporibus laboriosam?</p>
+
+        </section>
+        <section id="history">
+            <div id="history-title" class="category-title">
+                <h3>Work History</h3>
+                <div class="job">
+                    <h5 class="job-title">Lumber Mill</h5>
+                    <p class="job-info">Cut down trees and stuff and try not to die</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div id="skills-title" class="category-title">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Skillz</li>
+                </ul>
+                <ol>
+                    <li>skillz to pay the billz</li>
+                </ol>
+                <dl>
+                    <dt>Job One</dt>
+                    <dd>skill one</dd>
+                    <dt class="text-right">Job two</dt>
+                    <dd class="text-right">skill one</dd>
+                </dl>
+            </div>
+        </section>
+        <section id="school" class="bg-chartreuse">
+            <div class="category-title">
+                <h3>Schools</h3>
+                <div class="school text-right">
+                    <h4>Portland Community College</h4>
+                    <h5>Mathematics</h5>
+                </div>
+                <div class="school">
+                    <h4>Klamath Falls Community College</h4>
+                    <h5>Mathematics</h5>
+                </div>
+                <div class="school text-right">
+                    <h4>Oregon Institute of Technology</h4>
+                    <h5>Computer Hardware and Software Engineering</h5>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

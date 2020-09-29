@@ -1,0 +1,32 @@
+div.category-title {
+    color: seagreen;
+}
+
+#history-title {
+    color: salmon;
+}
+
+.category-title {
+    color: chartreuse;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.school {
+    background-color: slateblue;
+    color: aquamarine;
+}
+
+.bg-chartreuse {
+    background-color: hsl(216, 51%, 62%);
+}
